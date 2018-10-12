@@ -122,8 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 229975641}
   - component: {fileID: 229975640}
-  - component: {fileID: 229975638}
   - component: {fileID: 229975639}
+  - component: {fileID: 229975638}
   - component: {fileID: 229975637}
   m_Layer: 0
   m_Name: Player
@@ -151,7 +151,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &229975638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb614e7f5efdab4997c94e1cae22737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 15
+  movementSpeed: 10
 --- !u!212 &229975640
 SpriteRenderer:
   m_ObjectHideFlags: 0

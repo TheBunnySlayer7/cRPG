@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace CSD { 
-
 public class CharacterController : MonoBehaviour
 {
     Rigidbody2D rb;
@@ -23,5 +21,4 @@ public class CharacterController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontal, vertical) * movementSpeed;
     }
-}
 }
