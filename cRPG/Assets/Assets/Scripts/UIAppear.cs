@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+namespace CSD
+{
+
+
+
 public class UIAppear : MonoBehaviour
 {
     //[SerializeField] private Image customImage;
-    [SerializeField] private Text customText;
+    [SerializeField] public Text customText;
 
 
 
@@ -46,4 +52,5 @@ public class UIAppear : MonoBehaviour
             }
         }
     }
+}
 }
