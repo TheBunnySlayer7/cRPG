@@ -6,9 +6,6 @@ using UnityEngine.UI;
 
 namespace CSD
 {
-
-
-
 public class UIAppear : MonoBehaviour
 {
     //[SerializeField] private Image customImage;
